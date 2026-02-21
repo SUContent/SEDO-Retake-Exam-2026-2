@@ -1,8 +1,8 @@
-name: CI
+name: CI workflow
 
 on:
   push:
-    branches: ["main", "develop", "feature/*"]
+    branches: ["develop", "feature/*"]
 
 jobs:
   build:
